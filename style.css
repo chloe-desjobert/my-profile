@@ -1,0 +1,66 @@
+#titre{ 
+    color: #142850;
+    font-size: 50px;
+}
+h2{
+    color: #0c7b93 ;
+    font-size: 40px;
+}
+h1, h2 ,h3{
+    font-family: 'Sacramento', cursive;
+}
+div{
+    background-color: rgba(229, 246, 249,0.95);
+    text-align: center;
+    width: 700px;
+    margin: 20px auto;
+    padding: 20px 20px;
+    border-radius: 20px;
+    
+}
+p{
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+#photoprofil{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+body{
+    background-image: url(images/photo.fond.jpg);
+    background-size: 1920px 1080px; 
+    background-attachment: fixed;
+}
+li{
+    list-style: none;
+    display: inline;
+    padding: 10px 30px;
+}
+.icon{
+    width: 90px ;
+    height: 90px;
+    opacity: 1;
+}
+.icon:hover{
+    opacity: 0.5;
+}
+.pays{
+    width: 60px;
+    height: 60px;
+}
+
+@media(max-width:960px){
+    div{
+        width: 700px;
+    }
+}
+@media(max-width:720px){
+    div{
+        width: 500px;
+    }
+}
+@media(max-width:540px){
+    div{
+        width: 300px;
+    }
+}
